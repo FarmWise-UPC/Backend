@@ -76,5 +76,4 @@ public class Profile extends AuditableAbstractAggregateRoot<Profile> {
         return this.user.getId();
     }
 
-
 }

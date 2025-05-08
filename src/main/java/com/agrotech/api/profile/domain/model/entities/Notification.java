@@ -14,7 +14,6 @@ public class Notification {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @NotNull(message = "Title is required")
     private String title;
     @NotNull(message = "Message is required")
@@ -38,5 +37,4 @@ public class Notification {
     public Long getUserId() {
         return this.user.getId();
     }
-
 }

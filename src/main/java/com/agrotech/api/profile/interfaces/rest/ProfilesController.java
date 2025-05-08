@@ -98,5 +98,4 @@ public class ProfilesController {
         profileCommandService.handle(deleteProfileCommand);
         return ResponseEntity.ok("Profile with id " + id + " deleted successfully");
     }
-
 }
